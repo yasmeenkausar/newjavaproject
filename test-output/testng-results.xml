@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="95678" started-at="2018-07-31T05:25:14Z" finished-at="2018-07-31T05:26:50Z">
+    <groups>
+      <group name="smokeTest">
+        <method signature="CampaignTest.createCampTest()[pri:0, instance:com.crm.CampaignTest.CampaignTest@4883b407]" name="createCampTest" class="com.crm.CampaignTest.CampaignTest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test name="Default test" duration-ms="95678" started-at="2018-07-31T05:25:14Z" finished-at="2018-07-31T05:26:50Z">
+      <class name="com.crm.CampaignTest.CampaignTest">
+        <test-method status="PASS" signature="configBs()[pri:0, instance:com.crm.CampaignTest.CampaignTest@4883b407]" name="configBs" is-config="true" duration-ms="326" started-at="2018-07-31T10:55:14Z" finished-at="2018-07-31T10:55:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBs -->
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.crm.CampaignTest.CampaignTest@4883b407]" name="configBC" is-config="true" duration-ms="10749" started-at="2018-07-31T10:55:14Z" finished-at="2018-07-31T10:55:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.crm.CampaignTest.CampaignTest@4883b407]" name="login" is-config="true" duration-ms="8870" started-at="2018-07-31T10:55:25Z" finished-at="2018-07-31T10:55:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="createCampMapProduct()[pri:0, instance:com.crm.CampaignTest.CampaignTest@4883b407]" name="createCampMapProduct" duration-ms="21536" started-at="2018-07-31T10:55:34Z" finished-at="2018-07-31T10:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCampMapProduct -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.crm.CampaignTest.CampaignTest@4883b407]" name="logout" is-config="true" duration-ms="2352" started-at="2018-07-31T10:55:55Z" finished-at="2018-07-31T10:55:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.crm.CampaignTest.CampaignTest@4883b407]" name="login" is-config="true" duration-ms="4617" started-at="2018-07-31T10:55:58Z" finished-at="2018-07-31T10:56:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="createCampTest()[pri:0, instance:com.crm.CampaignTest.CampaignTest@4883b407]" name="createCampTest" duration-ms="19026" started-at="2018-07-31T10:56:02Z" finished-at="2018-07-31T10:56:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCampTest -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.crm.CampaignTest.CampaignTest@4883b407]" name="logout" is-config="true" duration-ms="2204" started-at="2018-07-31T10:56:21Z" finished-at="2018-07-31T10:56:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.crm.CampaignTest.CampaignTest@4883b407]" name="login" is-config="true" duration-ms="4324" started-at="2018-07-31T10:56:24Z" finished-at="2018-07-31T10:56:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="deleteCampaign()[pri:0, instance:com.crm.CampaignTest.CampaignTest@4883b407]" name="deleteCampaign" duration-ms="15276" started-at="2018-07-31T10:56:28Z" finished-at="2018-07-31T10:56:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCampaign -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.crm.CampaignTest.CampaignTest@4883b407]" name="logout" is-config="true" duration-ms="6677" started-at="2018-07-31T10:56:43Z" finished-at="2018-07-31T10:56:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.crm.CampaignTest.CampaignTest@4883b407]" name="closeBrowser" is-config="true" duration-ms="19" started-at="2018-07-31T10:56:50Z" finished-at="2018-07-31T10:56:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="configAftSuite()[pri:0, instance:com.crm.CampaignTest.CampaignTest@4883b407]" name="configAftSuite" is-config="true" duration-ms="706" started-at="2018-07-31T10:56:50Z" finished-at="2018-07-31T10:56:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAftSuite -->
+      </class> <!-- com.crm.CampaignTest.CampaignTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

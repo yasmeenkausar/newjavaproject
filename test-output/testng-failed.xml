@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.crm.CampaignTest.CampaignTest">
+        <methods>
+          <include name="configBC"/>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.crm.CampaignTest.CampaignTest -->
+      <class name="com.crm.EndtoEnd.CreateSaleOrder1">
+        <methods>
+          <include name="configBC"/>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.crm.EndtoEnd.CreateSaleOrder1 -->
+      <class name="com.crm.EndtoEnd.CreateRejectedQuoteTest">
+        <methods>
+          <include name="configBC"/>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.crm.EndtoEnd.CreateRejectedQuoteTest -->
+      <class name="com.crm.OrganizationTest.OrgTest">
+        <methods>
+          <include name="configBC"/>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+          <include name="login"/>
+          <include name="deleteOrg"/>
+        </methods>
+      </class> <!-- com.crm.OrganizationTest.OrgTest -->
+      <class name="com.crm.EndtoEnd.CreateAcceptedQuote">
+        <methods>
+          <include name="configBC"/>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.crm.EndtoEnd.CreateAcceptedQuote -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
